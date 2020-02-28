@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "entimm",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.17.2"
+  }
+}
+

@@ -1,0 +1,999 @@
+    1  sudo apt-get install sendmail
+    2  sudo sendmailconfig
+    3  service nginx restart
+    4  service php5.6-fpm restart
+    5  vim /etc/hosts
+    6  service php5.6-fpm restart
+    7  service nginx restart
+    8  ll
+    9  pwd
+   10  cd /var/www/html/
+   11  ll
+   12  composer require phpmailer/phpmailer
+   13  curl -sS https://getcomposer.org/installer | php
+   14  mv composer.phar /usr/local/bin/composer
+   15  composer
+   16  composer require phpmailer/phpmailer
+   17  ll
+   18  cd vendor
+   19  ll
+   20  \M-c\M-^@\M-^B\M-c\M-^@\M-^B
+   21  ..
+   22  gitx
+   23  ll
+   24  cd inc
+   25  ../vendor/
+   26  ll
+   27  sudo apt-get install ssmtp
+   28  vim /etc/ssmtp/ssmtp.conf
+   29  cd /etc/php/5.6/fpm
+   30  ll
+   31  vim php.ini
+   32  /usr/sbin/
+   33  ll
+   34  /usr/sbin/sendmail -t
+   35  /etc/php/5.6/fpm/
+   36  vim php-fpm.conf
+   37  service nginx restart
+   38  service php5.6-fpm restart
+   39  vim /etc/ssmtp/ssmtp.conf
+   40  service php5.6-fpm restart
+   41  service nginx restart
+   42  openssl req -newkey rsa:2048 -keyout midollar.key -out midollar.csr
+   43  ll
+   44  cat lufficc.csr
+   45  cat midollar.csr
+   46  cat midollar.key
+   47  vim lufficc_de.key
+   48  /etc/nginx
+   49  ll
+   50  mkdir ssl
+   51  ~
+   52  ll
+   53  mv lufficc_de.key midollar_de.key
+   54  mv * /etc/nginx/ssl
+   55  cd /etc/nginx/ssl
+   56  ll
+   57  ..
+   58  ll
+   59  cd sites-available
+   60  ll
+   61  vim default
+   62  sudo service nginx configtest
+   63  sudo service nginx restart
+   64  sudo service nginx reload
+   65  sudo service nginx restart
+   66  systemctl status nginx.service
+   67  sudo service nginx configtest
+   68  /etc/nginx/ssl/
+   69  ll
+   70  sudo service nginx configtest
+   71  sudo service nginx restart
+   72  sudo service nginx reload
+   73  sudo service nginx restart
+   74  ll
+   75  cat midollar_de.key
+   76  ll
+   77  cat midollar.csr
+   78  cat midollar.key
+   79  vim midollar_de.key
+   80  sudo service nginx reload
+   81  sudo service nginx restart
+   82  ..
+   83  mv ssl ssl_bad
+   84  mkdir ssl
+   85  cd ssl
+   86  openssl genrsa 4096 > account.key
+   87  ll
+   88  openssl genrsa 4096 > domain.key
+   89  openssl genrsa 4096 > midollar.key
+   90  ll
+   91  openssl req -new -sha256 -key domain.key -subj "/" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf "[SAN]\nsubjectAltName=DNS:midollar.biz,DNS:www.midollar.biz")) > domain.csr
+   92  ll
+   93  wget https://raw.githubusercontent.com/diafygi/acme-tiny/master/acme_tiny.py
+   94  rm -f midollar.key
+   95  ll
+   96  python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+   97  /var/www/startssl
+   98  mkdir /var/www/startssl
+   99  python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+  100  service nginx restart
+  101  sudo service nginx restart
+  102  python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+  103  /var/www/startssl
+  104  ll
+  105  ..
+  106  ll
+  107  pwd
+  108  sudo chmod 777 -R startssl
+  109  cd /etc/nginx/ssl
+  110  python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+  111  pwd
+  112  /var/www/startssl/
+  113  ll
+  114  touch index.html
+  115  sudo service nginx restart
+  116  /var/www/startssl
+  117  ll
+  118  sudo service nginx restart
+  119  vim index.html
+  120  sudo service nginx restart
+  121  ll
+  122  cat index.html
+  123  sudo service nginx restart
+  124  pwd
+  125  sudo service nginx restart
+  126  /etc/nginx/ssl
+  127  python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+  128  ll
+  129  wget -O - https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem > intermediate.pem
+  130  cat signed.crt intermediate.pem > chained.pem
+  131  wget -O - https://letsencrypt.org/certs/isrgrootx1.pem > root.pem
+  132  cat intermediate.pem root.pem > full_chained.pem
+  133  ll
+  134  sudo service nginx reload
+  135  pwd
+  136  sudo service nginx reload
+  137  sudo service nginx restart
+  138  cd /var/www/html
+  139  ll
+  140  chmod 777 *.txt
+  141  ll
+  142  cd /etc/nginx
+  143  ll
+  144  php -a
+  145  ll
+  146  cd /var/www/html
+  147  ll
+  148  mv theme theme.php
+  149  rm reset
+  150  pwd
+  151  cd /var/www/html
+  152  ll
+  153  la
+  154  mkdir .ssh/
+  155  cd /etc/nginx
+  156  ll
+  157  cd /var/log/nginx/
+  158  ll
+  159  vim error.log
+  160  sudo service php5.6-fpm restart
+  161  sudo service nginx restart
+  162  sudo find / -name  "php_errors.log"
+  163  cd /var/log
+  164  ll
+  165  cd nginx
+  166  ll
+  167  ..
+  168  vim php5.6-fpm.log
+  169  sudo service php5.6-fpm restart
+  170  sudo service nginx restart
+  171  ll
+  172  pwd
+  173  vim php5.6-fpm.log
+  174  cd /var/www/html
+  175  ll
+  176  ../
+  177  df -h
+  178  ll
+  179  cp html html_test
+  180  cp -R html html_test
+  181  LL
+  182  ll
+  183  service nginx restart
+  184  ll
+  185  mkdir deploy
+  186  cd deploy
+  187  touch index.php
+  188  vim index.php
+  189  cat ~/.ssh/id_rsa.pub
+  190  ssh-keygen -t rsa -b 4096 -C "midollaradm@gmail.com"
+  191  cat ~/.ssh/id_rsa.pub
+  192  ..
+  193  ll
+  194  cd /var/www
+  195  ll
+  196  cd deploy
+  197  ..
+  198  ll
+  199  cd deploy
+  200  ll
+  201  ..
+  202  ll
+  203  sudo chown -R www-data:www-data /var/www/
+  204  cd www
+  205  ll
+  206  mkdir /var/www/.ssh
+  207  ll
+  208  la
+  209  chown -R www-data:www-data .ssh
+  210  LL
+  211  ll
+  212  la
+  213  sudo -u www-data ssh-keygen -t rsa -C "midollaradm@gmail.com"
+  214  ll
+  215  cd deploy
+  216  ll
+  217  ..
+  218  cd 
+  219  cd -
+  220  la
+  221  cd .ssh
+  222  la
+  223  cat id_rsa
+  224  cat id_rsa.pub
+  225  ..
+  226  la
+  227  sudo -Hu www-data git clone git@git.coding.net:entimm/hm.git mm
+  228  ll
+  229  cd deploy
+  230  ll
+  231  rm -rf githm
+  232  ..
+  233  ll
+  234  mv mm githm
+  235  ll
+  236  cd html
+  237  ll
+  238  cd conf
+  239  ll
+  240  ..
+  241  ll
+  242  ..
+  243  ll
+  244  rm -rf githm
+  245  ll
+  246  rm -rf html_test
+  247  ll
+  248  sudo -Hu www-data git clone git@git.coding.net:entimm/hm.git hm_test
+  249  ll
+  250  cd html
+  251  ll
+  252  cp env ../
+  253  cp -R env ../
+  254  cp -R themes ../templates
+  255  cp -R inc/libs/ ../smarty
+  256  ..
+  257  ll
+  258  cd hm_test
+  259  ll
+  260  php theme.php
+  261  php theme.php current
+  262  ll
+  263  git status
+  264  ll
+  265  service nginx restart
+  266  pwd
+  267  ../
+  268  cd html
+  269  cp settings.prod.php ../hm_test
+  270  cd ..
+  271  cd hm_test
+  272  ll
+  273  ..
+  274  sudo chown -R www-data:www-data /var/www/
+  275  cd hm_test
+  276  ll
+  277  git status
+  278  vim settings.prod.php
+  279  git pull
+  280  sudo -Hu www-data git pull
+  281  git log
+  282  sudo -Hu www-data git pull
+  283  ..
+  284  rm -rf hm_test
+  285  sudo -Hu www-data git clone git@git.coding.net:entimm/hm.git hm_test
+  286  cd hm_test
+  287  php theme.php current
+  288  ../hm
+  289  ..
+  290  ll
+  291  cd html
+  292  cp settings.prod.php ../hm_test
+  293  ll
+  294  ..
+  295  cd hm_test
+  296  ll
+  297  vim settings.prod.php
+  298  ..
+  299  sudo chown -R www-data:www-data /var/www/
+  300  cd hm_test
+  301  ll
+  302  vim settings.prod.php
+  303  ll
+  304  ..
+  305  ll
+  306  sudo chown -R www-data:www-data /var/www/
+  307  cd hm_test
+  308  git status
+  309  sudo chown -R www-data:www-data /var/www/
+  310  ..
+  311  ll
+  312  sudo chown -R www-data:www-data /var/www/
+  313  ll
+  314  touch error.log
+  315  vim /var/www/error.log
+  316  ll
+  317  sudo chown -R www-data:www-data /var/www/
+  318  ll
+  319  ..
+  320  ll
+  321  cd log
+  322  ll
+  323  cd nginx
+  324  ll
+  325  vim error.log
+  326  ..
+  327  www
+  328  ll
+  329  cd hm_test
+  330  ll
+  331  ..
+  332  cd www
+  333  ll
+  334  ..
+  335  cd log
+  336  ll
+  337  vim php5.6-fpm.log
+  338  ll
+  339  cd nginx
+  340  ll
+  341  vim access.log
+  342  ..
+  343  ll
+  344  cd www
+  345  ll
+  346  cd hm_test
+  347  ll
+  348  mkdir tmpl_c
+  349  sudo chown -R www-data:www-data /var/www/
+  350  ll
+  351  git status
+  352  git reset --hard
+  353  git status
+  354  ..
+  355  cp hm_test hm_prod
+  356  cp hm_test -R hm_prod
+  357  sudo service nginx restart
+  358  sudo chown -R www-data:www-data /var/www/
+  359  /var/www/themes
+  360  ll
+  361  cd html
+  362  mv awesome ../themes
+  363  ll
+  364  mv themes ../template
+  365  ..
+  366  mv template templates
+  367  ll
+  368  cd templates
+  369  ll
+  370  pwd
+  371  sudo service nginx restart
+  372  ll
+  373  cd dollarup
+  374  ll
+  375  cd images
+  376  ll
+  377  ll.
+  378  ..
+  379  /var/www/templates/fundsmore/tmpl/
+  380  ..
+  381  ll
+  382  cd templates
+  383  ll
+  384  ..
+  385  ll
+  386  /var/www/templates/fundsmore/tmpl/
+  387  ll
+  388  ....
+  389  ll
+  390  cd html
+  391  ll
+  392  php theme.php clear
+  393  ll
+  394  php theme.php
+  395  php theme.php clear
+  396  ll
+  397  ..
+  398  rm -rf html
+  399  ll
+  400  cd hm_prod
+  401  git  status
+  402  git reset --hard
+  403  ..
+  404  cd hm_test
+  405  git reset --hard
+  406  /var/www/templates/yourshares/tmpl/
+  407  ll
+  408  ..
+  409  ll
+  410  rm socketlog.php
+  411  rm error.log
+  412  ll
+  413  bash
+  414  sudo chown -R www-data:www-data /var/www/
+  415  cd hm_
+  416  cd hm_prod
+  417  git status
+  418  ../hm_test
+  419  git status
+  420  git diff
+  421  git reset --hard
+  422  git status
+  423  ll
+  424  ..
+  425  ll
+  426  rm -rf templates
+  427  mv templates_ templates
+  428  cd /var/www/hm_test/
+  429  ..
+  430  ll
+  431  cd /var/www/hm_test/
+  432  sudo chown -R www-data:www-data /var/www/
+  433  ../deploy/
+  434  ll
+  435  cd /var/www/hm_test
+  436  git diff HEAD^^ HEAD
+  437  git diff HEAD^ HEAD
+  438  ../deploy
+  439  ll
+  440  rm test.*
+  441  ll
+  442  /var/www/hm_test
+  443  git pull
+  444  sudo chown -R www-data:www-data /var/www/
+  445  git log
+  446  touch test
+  447  sudo chown -R www-data:www-data /var/www/
+  448  ll
+  449  sudo chown -R www-data:www-data /var/www/
+  450  ll
+  451  ../env
+  452  vim data.php
+  453  ../
+  454  ll
+  455  cd hm_prod
+  456  cp settings.prod.php ../hm_test/settings.test.php
+  457  sudo chown -R www-data:www-data /var/www/
+  458  cd /var/www
+  459  cd hm_prod
+  460  ll
+  461  ls *.txt
+  462  rm *.txt
+  463  ls *.txt
+  464  cd ../hm_test/
+  465  ls *.txt
+  466  ..
+  467  ll
+  468  mkdir log
+  469  sudo chown -R www-data:www-data /var/www/
+  470  cd log
+  471  ll
+  472  ../hm_prod
+  473  ls *.txt
+  474  rm *.txt
+  475  ll
+  476  ls *.txt
+  477  cd /var/www/hm_test
+  478  git pull
+  479  sudo chown -R www-data:www-data /var/www/
+  480  git pull
+  481  ..
+  482  pwd
+  483  ll
+  484  history
+  485  cd /var/www
+  486  ll
+  487  cd /etc/nginx/ssl
+  488  ll
+  489  sudo add-apt-repository ppa:certbot/certbot
+  490  sudo apt-get update
+  491  sudo apt-get install certbot 
+  492  ll
+  493  cd /var/www/startssl
+  494  ll
+  495  ~
+  496  certbot certonly --webroot -w /var/www/startssl -d midollar.com -d www.midollar.com -d test.midollar.com -d theme.midollar.com
+  497  sudo service nginx configtest
+  498  sudo service nginx restart
+  499  service nginx stop
+  500  certbot certonly --standalone -d midollar.com -d www.midollar.com -d test.midollar.com -d theme.midollar.com
+  501  service nginx start
+  502  certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  503  service nginx stop
+  504  certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  505  service nginx start
+  506  /etc/letsencrypt
+  507  ll
+  508  /var/log/letsencrypt/
+  509  ll
+  510  ..
+  511  service nginx restart
+  512  cd /etc/nginx/sites-available
+  513  ll
+  514  service nginx restart
+  515  sudo service nginx restart
+  516  lsof -n -P -i TCP -s TCP:LISTEN
+  517  sudo service nginx restart
+  518  ll
+  519  sudo service nginx restart
+  520  sudo service nginx configtest
+  521  exit
+  522  cd /var/www
+  523  ll
+  524  composer install
+  525  /var/wwww
+  526  cd /var/www
+  527  ll
+  528  mkdir hm_new
+  529  cd hm_new
+  530  git init
+  531  cd /var/www/hm_new
+  532  git remote add origin https://git.coding.net/entimm/new_hm.git
+  533  git remote -v
+  534  sudo chown -R www-data:www-data /var/www/
+  535  git status
+  536  git log
+  537  git pull
+  538  sudo chown -R www-data:www-data /var/www/
+  539  sudo -Hu www-data git pull
+  540  cd ../hm_test
+  541  sudo -Hu www-data git pull
+  542  cd -
+  543  git remote -v
+  544  cd -
+  545  git remote -v
+  546  git remote rm rigin
+  547  git remote 
+  548  git remote -h
+  549  git remote remove origin
+  550  git remote add -t master origin  git@git.coding.net:entimm/new_hm.git
+  551  sudo -Hu www-data git pull
+  552  yarn
+  553  ll
+  554  composer install
+  555  ll
+  556  yarn
+  557  npm install
+  558  vim  /etc/php/5.6/cli/php.ini
+  559  composer install
+  560  vim  /etc/php/5.6/cli/php.ini
+  561  php -v
+  562  php -m
+  563  vim  /etc/php/5.6/cli/php.ini
+  564  composer install
+  565  php --ini
+  566  vim /etc/php/5.6/cli/php.ini
+  567  sudo apt-get search php
+  568  apt-get -h
+  569  composer install
+  570  sudo apt-get install libapache2-mod-php5
+  571  sudo apt-get install php5.6-mbstring
+  572  sudo apt-get update
+  573  sudo apt-get install php5.6-mbstring
+  574  composer install
+  575  sudo apt-get install php5.6-xml
+  576  composer install
+  577  la
+  578  cp .env.example .env
+  579  vim .env
+  580  sudo -Hu www-data git pull
+  581  sudo chown -R www-data:www-data /var/www/
+  582  vim .env
+  583  sudo service nginx configtest
+  584  sudo service nginx restart
+  585  php artisan key:general
+  586  php artisan key:generate
+  587  vim /etc/php/5.6/cli/php.ini
+  588  php artisan key:generate
+  589  sudo service php5.6-fpm restart
+  590  php artisan hyip:admin midollaradm@gmail.com
+  591  mysql -h localhost -uroot -p
+  592  vim .env
+  593  mysql -h localhost -uroot -p
+  594  php artisan migrate
+  595  vim .env
+  596  php artisan migrate
+  597  php artisan hyip:admin midollaradm@gmail.com
+  598  sudo chown -R www-data:www-data /var/www/
+  599  exit
+  600  /var/www/hm_new
+  601  ll
+  602  cd app/Hub
+  603  ll
+  604  vim PerfectMoney.php
+  605  cd /var/www/hm_new
+  606  composer install
+  607  vim .env
+  608  php artisan cache:clear
+  609  vim app/Http/Controllers/PendingWithdrawsController.php
+  610  cd /var/www/hm_new
+  611  vim vendor/charlesassets/laravel-perfectmoney/src/PerfectMoney.php
+  612  vim app/Http/Controllers/PendingWithdrawsController.php
+  613  history | grep mail
+  614  sudo sendmailconfig
+  615  vim /etc/ssmtp/ssmtp.conf
+  616  cd /var/www/hm_new
+  617  rm -rf vendor
+  618  composer install
+  619  ll
+  620  rm -rf vendor
+  621  composer install
+  622  php artisan cache:clear
+  623  vim vendor/entimm/laravel-perfectmoney/src/PerfectMoney.php
+  624  php artisan cache:clear
+  625  vim vendor/entimm/laravel-perfectmoney/src/PerfectMoney.php
+  626  php artisan cache:clear
+  627  vim .env
+  628  php artisan cache:clear
+  629  vim vendor/entimm/laravel-perfectmoney/src/PerfectMoney.php
+  630  sudo chown -R www-data:www-data /var/www/
+  631  cd /var/www/hm_new
+  632  ll
+  633  rm -rf vendor composer.lock 
+  634  ll
+  635  composer install
+  636  php artisan cache:clear
+  637  vim vendor/entimm/laravel-perfectmoney/src/PerfectMoney.php
+  638  rm -rf vendor
+  639  composer install
+  640  sudo chown -R www-data:www-data /var/www/
+  641  php artisan cache:clear
+  642  cd /var/www/hm_new
+  643  rm -f cd app/Mail.php  app/Services/Mail.php
+  644  sudo chown -R www-data:www-data /var/www/
+  645  rm -f app/Mail.php
+  646  composer instasll
+  647  composer install
+  648  history
+  649  vim /etc/ssmtp/ssmtp.conf
+  650  cd /var/www/hm_new/
+  651  sudo -Hu www-data git pull
+  652  git status
+  653  sudo -Hu composer install
+  654  sudo -Hu www-data composer install
+  655  composer remove entimm/laravel-perfectmoney
+  656  sudo -Hu www-data git reset --hard
+  657  git status
+  658  sudo chown -R www-data:www-data /var/www/
+  659  sudo -Hu www-data composer install
+  660  sudo -Hu www-data php artisan migrate
+  661  sudo -Hu www-data git pull
+  662  sudo -Hu www-data php artisan migrate
+  663  sudo chown -R www-data:www-data /var/www/
+  664  sudo -Hu www-data php artisan migrate
+  665  id | grep www-data
+  666  id
+  667  ll
+  668  pwd
+  669  cd /var/www
+  670  ll
+  671  sudo -Hu www-data composer install
+  672  sudo -Hu www-data composer update
+  673  sudo -Hu www-data composer install
+  674  ll
+  675  cd hm_new
+  676  ll
+  677  sudo -Hu www-data composer install
+  678  ll
+  679  mysqldump -h
+  680  mysqldump
+  681  mysql -h 127.0.0.1 -u root -p
+  682  mysqldump -h localhost -u root -p
+  683  mysqldump -h localhost -u root -p --databases hm_new
+  684  LL
+  685  ll
+  686  lsb_release
+  687  cd /
+  688  ll
+  689  exit
+  690  ll
+  691  cd /var/www/
+  692  ll
+  693  mkdir tawenxi
+  694  rm -rf tawenxi
+  695  git clone git@github.com:tawenxi/guzzler.git
+  696  git clone https://github.com/tawenxi/guzzler.git
+  697  mv tawenxi-guzzler
+  698  mv guzzler tawenxi-guzzler
+  699  cd tawenxi-guzzler
+  700  git fetch origin xiubu:xiubu
+  701  git checkout xiubu
+  702  composer install
+  703  php artisan optimize
+  704  ..
+  705  rm -tf tawenxi-guzzler
+  706  rm -rf tawenxi-guzzler
+  707  git clone https://github.com/tawenxi/guzzler.git tawenti-guzzler
+  708  cd tawenti-guzzler
+  709  git branch -r
+  710  git checkout -t xiubu origin/xiubu
+  711  git checkout -b xiubu origin/xiubu
+  712  git pull
+  713  composer install
+  714  php -b
+  715  php -v
+  716  vim config/app.php
+  717  php artisan optimize
+  718  yarn
+  719  ll
+  720  rm -f yarn-error.log
+  721  service nginx restart
+  722  ll
+  723  la
+  724  cp .env.example .env
+  725  vim .env
+  726  artisan 
+  727  ll
+  728  php artisan
+  729  php artisan key:generate
+  730  mysql -h 127.0.0.1 -u root -p
+  731  .env
+  732  vim .env
+  733  php artisan migrate
+  734  vim .env
+  735  valet
+  736  cd /var/www/tawenti-guzzler
+  737  vim storage/logs/laravel.log
+  738  ll
+  739  cd storage
+  740  ll
+  741  cd logs
+  742  ll
+  743  ..
+  744  ll
+  745  ..
+  746  sudo chown -R www-data:www-data /var/www/
+  747  service nginx restart
+  748  ping imiguo.top
+  749  service nginx restart
+  750  /var/www/tawenxi_guzzler
+  751  cd /var/www/tawenxi_guzzler
+  752  cd /var/www
+  753  mv tawenti-guzzler tawenxi-guzzler
+  754  service nginx restart
+  755  /var/www/tawenxi_guzzler
+  756  ll
+  757  mv tawenxi-guzzler tawenxi_guzzler
+  758  service nginx restart
+  759  ll
+  760  exit
+  761  vim /etc/mysql/my.cnf
+  762  vim /etc/mysql/conf.d/
+  763  vim /etc/mysql/my.cnf
+  764  cd /etc/mysql
+  765  ll
+  766  vim my.cnf
+  767  cd conf.d
+  768  ll
+  769  vim mysql.cnf
+  770  ..
+  771  ll
+  772  cd mysql.conf.d
+  773  ll
+  774  vim mysqld.cnf
+  775  cp mysqld.cnf ~/mysqld.cnf
+  776  vim mysqld.cnf
+  777  ..
+  778  vim mysql.cnf
+  779  vim /etc/mysql/my.cnf
+  780  ~
+  781  cp mysqld.cnf .my.cnf
+  782  vim .my
+  783  vim .my.cnf
+  784  ll
+  785  la
+  786  rm mysqld.cnf
+  787  vim .my.cnf
+  788  rm .my.cnf
+  789  cd -
+  790  cd mysql.conf.d
+  791  ll
+  792  vim mysqld.cnf
+  793  service mysqld restart
+  794  service mysql restart
+  795  exit
+  796  cd /var/www/
+  797  ll
+  798  cd deploy
+  799  ll
+  800  touch extraCommands.log
+  801  sudo chown -R www-data:www-data /var/www/
+  802  ll
+  803  sudo find -name extraCommands.log
+  804  sudo find / -name extraCommands.log
+  805  cat /var/www/hm_test/extraCommands.log
+  806  sudo service nginx restart
+  807  service nginx restart
+  808  j site
+  809  exit
+  810  cd /var/www/tawenxi_guzzler
+  811  ll
+  812  sudo chmod 777 -R app/storage
+  813  ll
+  814  sudo chmod 777 -R storage
+  815  sudo chmod 777 -R bootstrap/cache
+  816  php artisan clear-compiled
+  817  ls bootstrap/cache
+  818  ll bootstrap/cache
+  819  php artisan clear-compiled
+  820  ll bootstrap/cache
+  821  sudo chmod 777 -R bootstrap/cache
+  822  sudo chown -R www-data:www-data /var/www/
+  823  ll bootstrap/cache
+  824  php artisan
+  825  ll bootstrap/cache
+  826  j guzzler
+  827  exit
+  828  composer -v
+  829  cd /var/www/hm_new
+  830  exit
+  831  sudo service nginx restart
+  832  sudo service nginx stop
+  833  sudo service nginx start
+  834  cd /var/www/tawenxi_guzzler
+  835  ll
+  836  la
+  837  vim .env
+  838  vim .env.test
+  839  exit
+  840  cd /var/www/tawenxi_guzzler
+  841  ll
+  842  la
+  843  exit
+  844  ll
+  845  cd /var/www
+  846  ll
+  847  cd tawenxi_guzzler
+  848  php artisan migrate
+  849  php artisan migrate -y
+  850  php artisan migrate -h
+  851  ll
+  852  cd /var/www
+  853  ll
+  854  certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  855  service nginx stop
+  856  certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  857  service nginx start
+  858  /etc/letsencrypt
+  859  ll
+  860  cd live
+  861  ll
+  862  cd midollar.biz
+  863  ll
+  864  cat README
+  865  llllll
+  866  ll /etc/letsencrypt/live/midollar.biz/fullchain.pem
+  867  cd /etc/letsencrypt/live
+  868  ll
+  869  ..
+  870  ll
+  871  tree
+  872  service nginx restart
+  873  service nginx -t
+  874  nginx reload
+  875  nginx -s reload
+  876  ll
+  877  openssl dhparam -out ./dhparam.pem 2048
+  878  ll
+  879  ll /etc/letsencrypt/dhparam.pem
+  880  nginx -s reload
+  881  service nginx restart
+  882  history
+  883  certbot -h
+  884  certbot certonly -h
+  885  ll
+  886  cd /var/www
+  887  ll
+  888  sudo nginx -t
+  889  sudo systemctl restart nginx
+  890  certbot certonly --webroot --webroot-path=/var/www/html -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  891  ll
+  892  mkdir startssl
+  893  ll
+  894  cd startssl
+  895  ll
+  896  sudo nginx -t
+  897  sudo systemctl restart nginx
+  898  certbot certonly --webroot --webroot-path=/var/www/html -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  899  certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+  900  ll
+  901  sudo systemctl restart nginx
+  902  ll
+  903  vim certbot.log
+  904  exit
+  905  cd /var/www
+  906  ll
+  907  cd hm_
+  908  cd hm_prod
+  909  ll
+  910  mysqldump -uroot -p hm > hm.sql
+  911  LL
+  912  ll
+  913  whomai
+  914  who am i
+  915  pwd
+  916  ll
+  917  pwd
+  918  exit
+  919  cd /var/www
+  920  cd hm
+  921  ll
+  922  cd hm_prod
+  923  ll
+  924  cd ../hm_test
+  925  ll
+  926  git checkout -b tmp
+  927  git reset --hard
+  928  mv ~/hm.sql hm.sql
+  929  git add hm.sql
+  930  git commit -am "add file"
+  931  sudo -Hu git -am "add sql file"
+  932  sudo -Hu www-data git -am "add sql file"
+  933  sudo -Hu www-data git commit -am "add sql file"
+  934  sudo chown -R www-data:www-data /var/www/
+  935  sudo -Hu www-data git commit -am "add sql file"
+  936  sudo -Hu www-data git push origin:tmp
+  937  sudo -Hu www-data git push origin tmp
+  938  git log
+  939  sudo -Hu www-data git push origin tmp
+  940  exit
+  941  wget http://table.finance.yahoo.com/table.csv?s=600000.ss
+  942  wget http://table.finance.yahoo.com/table.csv?s=000001.sz
+  943  exit
+  944  cd /var/www/tawenxi_guzzler
+  945  ll
+  946  composer instasll
+  947  composer install
+  948  cd /var/www/deploy
+  949  ll
+  950  wget https://github.com/uglide/RedisDesktopManager/releases/download/0.9.0-alpha4/redis-desktop-manager-0.9.0.51.dmg
+  951  exit
+  952  cd /var/www
+  953  ll
+  954  cd h,
+  955  ll
+  956  cd hm
+  957  cd hm_prod
+  958  ll
+  959  ..
+  960  vim composer.json
+  961  ll
+  962  exit
+  963  cd /var/www
+  964  ll
+  965  sudo -Hu www-data composer install
+  966  ll
+  967  cd hm_prod
+  968  sudo -Hu www-data composer install
+  969  cd /var/www
+  970  ll
+  971  cd hm_new
+  972  ll
+  973  la
+  974  gulp
+  975  npm run production
+  976  mysql -g
+  977  mysql -h
+  978  mysql -h127.0.0.1 -uroot -p
+  979  php -v
+  980  lsof -n -P -i TCP -s TCP:LISTEN
+  981  apt-get search php7
+  982  apt-get -h
+  983  apt 
+  984  apt search php7
+  985  apt install php7.1 php7.1-cli php7.1-fpm php7.1-gd php7.1-curl php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-opcache
+  986  apt update
+  987  apt install php7.1 php7.1-cli php7.1-fpm php7.1-gd php7.1-curl php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-opcache
+  988  php -v
+  989  where php
+  990  which php
+  991  cd /var/www
+  992  ll
+  993  git clone git@github.com:entimm/larahm.git
+  994  git clone https://github.com/entimm/larahm.git --depth 1
+  995  ll
+  996  git clone https://github.com/imiguo/templates.git lara-templates
+  997  ll
+  998  cd deploy
+  999  ll

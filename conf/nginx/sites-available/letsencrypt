@@ -1,0 +1,11 @@
+# Let’s Encrypt
+# server {
+#     server_name www.midollar.biz midollar.biz test.midollar.biz themes.midollar.biz;
+#     location ^~ /.well-known/acme-challenge/ {
+#         alias /var/www/startssl/;
+#         try_files $uri =404;
+#     }
+#     location / {
+#         rewrite ^/(.*)$ https://midollar.biz/$1 permanent;
+#     }
+# }

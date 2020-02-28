@@ -1,0 +1,1111 @@
+------
+time: 2017-06-12 23:43:14
+ip: 108.61.200.232
+dir: /var/www/hm_test
+> git
+> pwd
+------
+------
+time: 2017-06-13 01:12:09
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017/1
+------
+------
+time: 2017-06-13 01:12:34
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/1
+------
+------
+time: 2017-06-13 01:12:53
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/2
+------
+------
+time: 2017-06-13 01:13:00
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/3
+------
+------
+time: 2017-06-13 01:13:07
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/4
+------
+------
+time: 2017-06-13 01:13:14
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/5
+------
+------
+time: 2017-06-13 01:13:19
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/6
+------
+------
+time: 2017-06-13 01:13:24
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017gz/7
+------
+------
+time: 2017-06-13 01:14:39
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/jishengs
+------
+------
+time: 2017-06-13 01:18:13
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/fazhi
+------
+------
+time: 2017-06-13 01:31:13
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/anquan
+------
+------
+time: 2017-06-13 01:31:24
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/chaye
+------
+------
+time: 2017-06-13 01:36:41
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/anquan
+------
+------
+time: 2017-06-13 01:38:55
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/anquan
+------
+------
+time: 2017-06-13 01:39:03
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/anquan
+------
+------
+time: 2017-06-13 01:48:44
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan i:e 2017jj/anquan
+------
+------
+time: 2017-06-13 23:58:01
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan help tail
+------
+------
+time: 2017-06-14 00:56:49
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 00:57:30
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 00:58:41
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-14 01:00:06
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 01:00:14
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 01:02:50
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --hard HEAD^
+------
+------
+time: 2017-06-14 01:03:33
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 01:05:22
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --hard 7418875
+------
+------
+time: 2017-06-14 01:05:47
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer install
+------
+------
+time: 2017-06-14 01:08:28
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer update
+------
+------
+time: 2017-06-14 01:09:58
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 02:50:55
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ll
+------
+------
+time: 2017-06-14 02:51:09
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 03:09:21
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 03:19:08
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 03:34:38
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 03:34:46
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-14 06:43:34
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 06:43:52
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> cd app
+------
+------
+time: 2017-06-14 06:44:04
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 06:45:02
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> mv -r app Ap
+------
+------
+time: 2017-06-14 06:45:48
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> mv --help
+------
+------
+time: 2017-06-14 06:46:37
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> mv app Ap
+------
+------
+time: 2017-06-14 06:46:48
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 06:47:17
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ll Ap
+------
+------
+time: 2017-06-14 06:47:29
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ll
+------
+------
+time: 2017-06-14 06:47:37
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 06:47:50
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls Ap
+------
+------
+time: 2017-06-14 06:48:26
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> rm -rf app
+------
+------
+time: 2017-06-14 06:48:37
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 06:49:06
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> rm -rf app
+------
+------
+time: 2017-06-14 06:49:16
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-14 07:05:07
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git log --oneline
+------
+------
+time: 2017-06-14 07:06:07
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git reset --hard b2a9971
+------
+------
+time: 2017-06-14 07:07:00
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git reflog
+------
+------
+time: 2017-06-14 07:09:35
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git log --oneline 
+------
+------
+time: 2017-06-14 07:10:23
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git checkout 
+------
+------
+time: 2017-06-14 07:10:47
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-14 07:11:35
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git reset --hard 218ca330aade525202a6d17cd00b1cd0e0bf7f24
+------
+------
+time: 2017-06-14 07:14:49
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git branch 
+------
+------
+time: 2017-06-14 07:17:42
+ip: 115.148.47.242
+dir: /var/www/tawenxi_guzzler
+> git reset --hard b2a9971
+------
+------
+time: 2017-06-14 23:20:45
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --header 28c562c
+------
+------
+time: 2017-06-14 23:21:02
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset header 28c562c
+------
+------
+time: 2017-06-14 23:21:23
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --hard 28c562c
+------
+------
+time: 2017-06-14 23:22:19
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --hard 28c562c
+------
+------
+time: 2017-06-14 23:22:22
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git reset --hard 28c562c
+------
+------
+time: 2017-06-14 23:22:39
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log --oneline
+------
+------
+time: 2017-06-14 23:24:31
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php aertisan signup
+------
+------
+time: 2017-06-14 23:24:40
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan signup
+------
+------
+time: 2017-06-14 23:24:59
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout
+------
+------
+time: 2017-06-23 05:48:01
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git branch
+------
+------
+time: 2017-06-23 05:59:00
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git branch
+------
+------
+time: 2017-06-23 05:59:18
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git ll
+------
+------
+time: 2017-06-23 05:59:29
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-23 06:03:05
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-23 06:03:12
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-23 06:03:56
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git ll
+------
+------
+time: 2017-06-23 06:04:11
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-23 06:04:27
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-23 06:04:37
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-23 06:04:53
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git ll
+------
+------
+time: 2017-06-23 06:05:00
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-23 06:33:25
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> composer install 
+------
+------
+time: 2017-06-23 06:34:03
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-23 06:34:38
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> composer update 
+------
+------
+time: 2017-06-23 06:36:01
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload 
+------
+------
+time: 2017-06-23 06:55:06
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-23 08:16:57
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-23 08:43:32
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> cd database 
+------
+------
+time: 2017-06-23 08:43:42
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> cd database 
+------
+------
+time: 2017-06-23 08:43:46
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> cd database 
+------
+------
+time: 2017-06-23 08:43:56
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> cd database ll
+------
+------
+time: 2017-06-23 08:44:11
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ll
+------
+------
+time: 2017-06-23 08:44:25
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-23 08:44:51
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database 
+------
+------
+time: 2017-06-23 08:45:04
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database/migrate 
+------
+------
+time: 2017-06-23 08:45:20
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database/migrates
+------
+------
+time: 2017-06-23 08:45:29
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database/
+------
+------
+time: 2017-06-23 08:45:53
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database/migration 
+------
+------
+time: 2017-06-23 08:46:15
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database 
+------
+------
+time: 2017-06-23 08:46:29
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations 
+------
+------
+time: 2017-06-23 09:01:59
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> ls 
+------
+------
+time: 2017-06-23 09:18:41
+ip: 118.212.190.246
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-23 20:14:51
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> cd database/migrations 
+------
+------
+time: 2017-06-23 20:15:04
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> ll
+------
+------
+time: 2017-06-23 20:15:13
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> ls 
+------
+------
+time: 2017-06-23 20:15:50
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations/
+------
+------
+time: 2017-06-23 20:17:10
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> cp database/migrations/2017_06_18_073002_create_roles_table.php  database/migrations/2017_06_22_073002_create_roles_table.php
+------
+------
+time: 2017-06-23 20:17:45
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations 
+------
+------
+time: 2017-06-23 20:18:17
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate
+------
+------
+time: 2017-06-23 20:24:58
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> mkdir database/migrations/single
+------
+------
+time: 2017-06-23 20:26:30
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> cp database/migrations/2017_06_18_073002_create_roles_table.php database/migrations/single 
+------
+------
+time: 2017-06-23 20:27:15
+ip: 115.148.49.69
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate --path=single 
+------
+------
+time: 2017-06-27 03:18:35
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> php artisan signup
+------
+------
+time: 2017-06-27 03:19:15
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> git log 
+------
+------
+time: 2017-06-27 04:41:05
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-27 04:42:01
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-27 05:30:14
+ip: 218.87.163.87
+dir: /var/www/hm_test
+> php artisan migrate
+------
+------
+time: 2017-06-27 05:36:40
+ip: 183.15.178.186
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate
+------
+------
+time: 2017-06-27 06:13:43
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-27 06:18:56
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate 
+------
+------
+time: 2017-06-27 06:19:21
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate --force 
+------
+------
+time: 2017-06-27 06:21:03
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations
+------
+------
+time: 2017-06-27 06:22:37
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> rm -rf database/migrations/2017_06_18_073002_create_roles_table.php
+------
+------
+time: 2017-06-27 06:23:24
+ip: 118.212.199.145
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations
+------
+------
+time: 2017-06-28 00:19:01
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations
+------
+------
+time: 2017-06-28 00:21:30
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> rm -rf 2017_06_22_073002_create_roles_table.php
+------
+------
+time: 2017-06-28 00:21:40
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> rm -rf 2017_06_22_073002_create_roles_table.php
+------
+------
+time: 2017-06-28 00:22:16
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> rm -rf database/migrateions/2017_06_22_073002_create_roles_table.php
+------
+------
+time: 2017-06-28 00:22:32
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrateions/
+------
+------
+time: 2017-06-28 00:22:48
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations/
+------
+------
+time: 2017-06-28 00:23:07
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> rm -rf database/migrations/2017_06_22_073002_create_roles_table.php
+------
+------
+time: 2017-06-28 00:23:21
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations
+------
+------
+time: 2017-06-28 00:23:54
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations/single
+------
+------
+time: 2017-06-28 00:24:10
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls database/migrations/single
+------
+------
+time: 2017-06-28 00:24:25
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate
+------
+------
+time: 2017-06-28 00:24:40
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate --force
+------
+------
+time: 2017-06-28 01:04:50
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require laracasts/flash
+------
+------
+time: 2017-06-28 01:33:12
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require laracasts/flash
+------
+------
+time: 2017-06-28 01:34:34
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-28 01:36:19
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-28 01:36:41
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-28 01:37:40
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require laracasts/flash
+------
+------
+time: 2017-06-28 01:38:04
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-28 01:40:20
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-28 01:40:42
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer update
+------
+------
+time: 2017-06-28 01:41:58
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer dump-autoload
+------
+------
+time: 2017-06-28 01:42:25
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-28 01:42:46
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> rm -rf Ap
+------
+------
+time: 2017-06-28 01:42:52
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> ls
+------
+------
+time: 2017-06-28 01:43:32
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> vim server.php
+------
+------
+time: 2017-06-28 03:59:37
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-06-28 04:05:06
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-07-05 04:06:36
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-07-07 05:07:59
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan insert:salary 2017gz/7
+------
+------
+time: 2017-07-07 05:08:18
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan insert:salary 2017jj/fupin
+------
+------
+time: 2017-07-07 05:08:27
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan insert:salary 2017jj/anju
+------
+------
+time: 2017-07-07 05:17:20
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> cd Storage/logs
+------
+------
+time: 2017-07-07 05:17:30
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> cd storage/logs
+------
+------
+time: 2017-07-07 05:17:56
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> touch storage/logs/logins.log
+------
+------
+time: 2017-07-27 20:53:01
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-07-27 20:54:25
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-07-28 05:40:08
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate
+------
+------
+time: 2017-07-28 05:40:24
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> php artisan migrate
+------
+------
+time: 2017-08-08 04:10:10
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git log
+------
+------
+time: 2017-08-08 04:13:38
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9
+------
+------
+time: 2017-08-08 04:14:27
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:15:23
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout Head composer.json
+------
+------
+time: 2017-08-08 04:15:39
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout HEAD composer.json
+------
+------
+time: 2017-08-08 04:15:57
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout HEAD composer.json
+------
+------
+time: 2017-08-08 04:16:10
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout HEAD composer.json
+------
+------
+time: 2017-08-08 04:16:34
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> cpmposer require "nicolaslopezj/searchable ^1.9
+------
+------
+time: 2017-08-08 04:16:46
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> cpmposer require nicolaslopezj/searchable ^1.9
+------
+------
+time: 2017-08-08 04:16:55
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable ^1.9
+------
+------
+time: 2017-08-08 04:22:17
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout Head -- composer.json
+------
+------
+time: 2017-08-08 04:22:54
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> git checkout 3a54cfa -- composer.json
+------
+------
+time: 2017-08-08 04:23:36
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:25:14
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> comoser require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:25:22
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:28:00
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:28:49
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:29:24
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer require nicolaslopezj/searchable 1.9.*
+------
+------
+time: 2017-08-08 04:30:09
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer install
+------
+------
+time: 2017-08-08 04:32:18
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer install
+------
+------
+time: 2017-08-08 04:32:36
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer update
+------
+------
+time: 2017-08-08 04:33:03
+ip: 218.87.163.87
+dir: /var/www/tawenxi_guzzler
+> composer install
+------
+------
+time: 2017-08-18 08:57:01
+ip: 183.15.254.255
+dir: /var/www/hm_new
+> npm run production
+------

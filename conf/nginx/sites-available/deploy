@@ -1,0 +1,22 @@
+server {
+    listen 80;
+
+    root /var/www/deploy;
+
+    index index.php index.html index.htm index.nginx-debian.html;
+
+    server_name deploy.entimm.com;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass 127.0.0.1:9009;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}

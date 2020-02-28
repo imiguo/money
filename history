@@ -1,0 +1,617 @@
+sudo apt-get install sendmail
+sudo sendmailconfig
+service nginx restart
+service php5.6-fpm restart
+vim /etc/hosts
+ll
+pwd
+cd /var/www/html/
+composer require phpmailer/phpmailer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+composer
+cd vendor
+..
+gitx
+cd inc
+../vendor/
+sudo apt-get install ssmtp
+vim /etc/ssmtp/ssmtp.conf
+cd /etc/php/5.6/fpm
+vim php.ini
+/usr/sbin/
+/usr/sbin/sendmail -t
+/etc/php/5.6/fpm/
+vim php-fpm.conf
+openssl req -newkey rsa:2048 -keyout midollar.key -out midollar.csr
+cat lufficc.csr
+cat midollar.csr
+cat midollar.key
+vim lufficc_de.key
+/etc/nginx
+mkdir ssl
+mv lufficc_de.key midollar_de.key
+mv * /etc/nginx/ssl
+cd /etc/nginx/ssl
+cd sites-available
+vim default
+sudo service nginx configtest
+sudo service nginx restart
+sudo service nginx reload
+systemctl status nginx.service
+/etc/nginx/ssl/
+cat midollar_de.key
+vim midollar_de.key
+mv ssl ssl_bad
+cd ssl
+openssl genrsa 4096 > account.key
+openssl genrsa 4096 > domain.key
+openssl genrsa 4096 > midollar.key
+openssl req -new -sha256 -key domain.key -subj "/" -reqexts SAN -config <(cat /etc/ssl/openssl.cnf <(printf "[SAN]\nsubjectAltName=DNS:midollar.biz,DNS:www.midollar.biz")) > domain.csr
+wget https://raw.githubusercontent.com/diafygi/acme-tiny/master/acme_tiny.py
+rm -f midollar.key
+python acme_tiny.py --account-key ./account.key --csr ./domain.csr --acme-dir /var/www/startssl/ > ./signed.crt
+/var/www/startssl
+mkdir /var/www/startssl
+sudo chmod 777 -R startssl
+/var/www/startssl/
+touch index.html
+vim index.html
+cat index.html
+/etc/nginx/ssl
+wget -O - https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem > intermediate.pem
+cat signed.crt intermediate.pem > chained.pem
+wget -O - https://letsencrypt.org/certs/isrgrootx1.pem > root.pem
+cat intermediate.pem root.pem > full_chained.pem
+cd /var/www/html
+chmod 777 *.txt
+cd /etc/nginx
+php -a
+mv theme theme.php
+rm reset
+la
+mkdir .ssh/
+cd /var/log/nginx/
+vim error.log
+sudo service php5.6-fpm restart
+sudo find / -name  "php_errors.log"
+cd /var/log
+cd nginx
+vim php5.6-fpm.log
+../
+df -h
+cp html html_test
+cp -R html html_test
+LL
+mkdir deploy
+cd deploy
+touch index.php
+vim index.php
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -b 4096 -C "midollaradm@gmail.com"
+cd /var/www
+sudo chown -R www-data:www-data /var/www/
+cd www
+mkdir /var/www/.ssh
+chown -R www-data:www-data .ssh
+sudo -u www-data ssh-keygen -t rsa -C "midollaradm@gmail.com"
+cd
+cd -
+cd .ssh
+cat id_rsa
+cat id_rsa.pub
+sudo -Hu www-data git clone git@git.coding.net:entimm/hm.git mm
+rm -rf githm
+mv mm githm
+cd html
+cd conf
+rm -rf html_test
+sudo -Hu www-data git clone git@git.coding.net:entimm/hm.git hm_test
+cp env ../
+cp -R env ../
+cp -R themes ../templates
+cp -R inc/libs/ ../smarty
+cd hm_test
+php theme.php
+php theme.php current
+git status
+cp settings.prod.php ../hm_test
+cd ..
+vim settings.prod.php
+git pull
+sudo -Hu www-data git pull
+git log
+rm -rf hm_test
+../hm
+touch error.log
+vim /var/www/error.log
+cd log
+www
+vim access.log
+mkdir tmpl_c
+git reset --hard
+cp hm_test hm_prod
+cp hm_test -R hm_prod
+/var/www/themes
+mv awesome ../themes
+mv themes ../template
+mv template templates
+cd templates
+cd dollarup
+cd images
+ll.
+/var/www/templates/fundsmore/tmpl/
+....
+php theme.php clear
+rm -rf html
+cd hm_prod
+git  status
+/var/www/templates/yourshares/tmpl/
+rm socketlog.php
+rm error.log
+bash
+cd hm_
+../hm_test
+git diff
+rm -rf templates
+mv templates_ templates
+cd /var/www/hm_test/
+../deploy/
+cd /var/www/hm_test
+git diff HEAD^^ HEAD
+git diff HEAD^ HEAD
+../deploy
+rm test.*
+/var/www/hm_test
+touch test
+../env
+vim data.php
+cp settings.prod.php ../hm_test/settings.test.php
+ls *.txt
+rm *.txt
+cd ../hm_test/
+mkdir log
+../hm_prod
+history
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot
+cd /var/www/startssl
+certbot certonly --webroot -w /var/www/startssl -d midollar.com -d www.midollar.com -d test.midollar.com -d theme.midollar.com
+service nginx stop
+certbot certonly --standalone -d midollar.com -d www.midollar.com -d test.midollar.com -d theme.midollar.com
+service nginx start
+certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+/etc/letsencrypt
+/var/log/letsencrypt/
+cd /etc/nginx/sites-available
+lsof -n -P -i TCP -s TCP:LISTEN
+exit
+composer install
+/var/wwww
+mkdir hm_new
+cd hm_new
+git init
+cd /var/www/hm_new
+git remote add origin https://git.coding.net/entimm/new_hm.git
+git remote -v
+cd ../hm_test
+git remote rm rigin
+git remote
+git remote -h
+git remote remove origin
+git remote add -t master origin  git@git.coding.net:entimm/new_hm.git
+yarn
+npm install
+vim  /etc/php/5.6/cli/php.ini
+php -v
+php -m
+php --ini
+vim /etc/php/5.6/cli/php.ini
+sudo apt-get search php
+apt-get -h
+sudo apt-get install libapache2-mod-php5
+sudo apt-get install php5.6-mbstring
+sudo apt-get install php5.6-xml
+cp .env.example .env
+vim .env
+php artisan key:general
+php artisan key:generate
+php artisan hyip:admin midollaradm@gmail.com
+mysql -h localhost -uroot -p
+php artisan migrate
+/var/www/hm_new
+cd app/Hub
+vim PerfectMoney.php
+php artisan cache:clear
+vim app/Http/Controllers/PendingWithdrawsController.php
+vim vendor/charlesassets/laravel-perfectmoney/src/PerfectMoney.php
+history | grep mail
+rm -rf vendor
+vim vendor/entimm/laravel-perfectmoney/src/PerfectMoney.php
+rm -rf vendor composer.lock
+rm -f cd app/Mail.php  app/Services/Mail.php
+rm -f app/Mail.php
+composer instasll
+cd /var/www/hm_new/
+sudo -Hu composer install
+sudo -Hu www-data composer install
+composer remove entimm/laravel-perfectmoney
+sudo -Hu www-data git reset --hard
+sudo -Hu www-data php artisan migrate
+id | grep www-data
+id
+sudo -Hu www-data composer update
+mysqldump -h
+mysqldump
+mysql -h 127.0.0.1 -u root -p
+mysqldump -h localhost -u root -p
+mysqldump -h localhost -u root -p --databases hm_new
+lsb_release
+cd /
+cd /var/www/
+mkdir tawenxi
+rm -rf tawenxi
+git clone git@github.com:tawenxi/guzzler.git
+git clone https://github.com/tawenxi/guzzler.git
+mv tawenxi-guzzler
+mv guzzler tawenxi-guzzler
+cd tawenxi-guzzler
+git fetch origin xiubu:xiubu
+git checkout xiubu
+php artisan optimize
+rm -tf tawenxi-guzzler
+rm -rf tawenxi-guzzler
+git clone https://github.com/tawenxi/guzzler.git tawenti-guzzler
+cd tawenti-guzzler
+git branch -r
+git checkout -t xiubu origin/xiubu
+git checkout -b xiubu origin/xiubu
+php -b
+vim config/app.php
+rm -f yarn-error.log
+artisan
+php artisan
+.env
+valet
+cd /var/www/tawenti-guzzler
+vim storage/logs/laravel.log
+cd storage
+cd logs
+ping imiguo.top
+/var/www/tawenxi_guzzler
+cd /var/www/tawenxi_guzzler
+mv tawenti-guzzler tawenxi-guzzler
+mv tawenxi-guzzler tawenxi_guzzler
+vim /etc/mysql/my.cnf
+vim /etc/mysql/conf.d/
+cd /etc/mysql
+vim my.cnf
+cd conf.d
+vim mysql.cnf
+cd mysql.conf.d
+vim mysqld.cnf
+cp mysqld.cnf ~/mysqld.cnf
+cp mysqld.cnf .my.cnf
+vim .my
+vim .my.cnf
+rm mysqld.cnf
+rm .my.cnf
+service mysqld restart
+service mysql restart
+touch extraCommands.log
+sudo find -name extraCommands.log
+sudo find / -name extraCommands.log
+cat /var/www/hm_test/extraCommands.log
+j site
+sudo chmod 777 -R app/storage
+sudo chmod 777 -R storage
+sudo chmod 777 -R bootstrap/cache
+php artisan clear-compiled
+ls bootstrap/cache
+ll bootstrap/cache
+j guzzler
+composer -v
+sudo service nginx stop
+sudo service nginx start
+vim .env.test
+cd tawenxi_guzzler
+php artisan migrate -y
+php artisan migrate -h
+cd live
+cd midollar.biz
+cat README
+llllll
+ll /etc/letsencrypt/live/midollar.biz/fullchain.pem
+cd /etc/letsencrypt/live
+tree
+service nginx -t
+nginx reload
+nginx -s reload
+openssl dhparam -out ./dhparam.pem 2048
+ll /etc/letsencrypt/dhparam.pem
+certbot -h
+certbot certonly -h
+sudo nginx -t
+sudo systemctl restart nginx
+certbot certonly --webroot --webroot-path=/var/www/html -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+mkdir startssl
+cd startssl
+certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d theme.midollar.biz
+vim certbot.log
+mysqldump -uroot -p hm > hm.sql
+whomai
+who am i
+cd hm
+git checkout -b tmp
+mv ~/hm.sql hm.sql
+git add hm.sql
+git commit -am "add file"
+sudo -Hu git -am "add sql file"
+sudo -Hu www-data git -am "add sql file"
+sudo -Hu www-data git commit -am "add sql file"
+sudo -Hu www-data git push origin:tmp
+sudo -Hu www-data git push origin tmp
+wget http://table.finance.yahoo.com/table.csv?s=600000.ss
+wget http://table.finance.yahoo.com/table.csv?s=000001.sz
+cd /var/www/deploy
+wget https://github.com/uglide/RedisDesktopManager/releases/download/0.9.0-alpha4/redis-desktop-manager-0.9.0.51.dmg
+cd h,
+vim composer.json
+gulp
+npm run production
+mysql -g
+mysql -h
+mysql -h127.0.0.1 -uroot -p
+apt-get search php7
+apt
+apt search php7
+apt install php7.1 php7.1-cli php7.1-fpm php7.1-gd php7.1-curl php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-opcache php7.1-xml
+apt update
+where php
+which php
+git clone git@github.com:entimm/larahm.git
+git clone https://github.com/entimm/larahm.git --depth 1
+git clone https://github.com/imiguo/templates.git lara-templates
+history > history.log
+cd /etc/php/
+cd 7.1
+cd fpm
+service php7.1-fpm restart
+service list
+service status list
+systemctl status
+service php7.1-fpm start
+php-fpm
+php-fpm7.1
+service php7.1-fpm stop
+service php7.1-fpm status
+cd larahm
+nginx -s relaod
+cd lara-templates
+cd ../larahm
+apt install php7.1-xml
+php artisan key:generate -h
+php artisan key:generate --env=production
+php artisan migarate
+php artisan migrate --env=production
+php artisan db:seed --env=production
+php artisan migrate:refresh --seed --env=production
+php artisan blade:clear
+redis
+df
+apt install redis-server
+mkdir blades
+cd blades
+vim laravel.log
+cd app
+vim helpers.php
+ll ../storage/blades
+vim /var/www/larahm/app/Services/IpService.php
+cd Http/Middleware
+vi ChangeTheme.php
+vim ChangeTheme.php
+cd app/Providers
+vim AppServiceProvider.php
+cd config
+vim view.php
+vim hm.php
+cd ..?
+vim app/helpers.php
+git reset --hard abf1d46cb4
+git reflog
+q:q
+git reset --hard abf1d46
+crontab -e
+cd /var/www/larahm
+cron status
+cron -h
+cron --help
+cron start
+sudo cron start
+sudo cron restart
+crontab status
+crontab -h
+crontab -l
+service cron start
+service cron status
+service cron stop
+pgrep cron
+php artisan tinker
+ln -s .env.production .env
+cd /var
+dh
+df . -h
+cd /var/www/hm_prod
+cat settings.prod.php
+composer dumpautoload
+php artisan migrate:refresh --seed
+php artisan migrate:refresh -h
+php artisan migrate:refresh --seed --force
+cd ../lara-templates
+cd sinpayer
+cd tmpl
+vim deposit_perfectmoney_confirm.blade.php
+psconfig('pm.marchant_id')
+cd ../../sinpayer
+rm -rf blades/* tmpl_c/*
+rm -rf blades/* tmpl_c/* -y
+cd tmpl_c
+vim 66829cd3b97ec314dfdc5968f0c30f7b059b8cea_0.file.deposit_perfectmoney_confirm.blade.php.php
+/var/www/lara-templates/sinpayer/tmpl
+rm -rf blades/* logs/* tmpl_c
+cd public
+rm storage/tmpl_c -f
+rm storage/tmpl_c -fr
+cd app/Http
+cd Middleware
+vim VerifyCsrfToken.php
+cd storage/logs
+cd ../..
+curl https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700
+curl "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700"
+git reset --hard origin/master
+composer update
+rm -tf vendor
+sudo -Hu www-data composer install --no-dev
+php artisn
+php artisan migrate:fresh
+php artisan migrate:fresh --seed
+certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d deploy.midollar.biz -d www.sinpayer.com -d sinpayer.com
+certbot certonly --webroot --webroot-path=/var/www/html -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d .midollar.biz
+certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d .midollar.biz
+certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.
+certbot certonly --webroot --webroot-path=/var/www/startssl -d midollar.biz -d www.midollar.biz -d test.midollar.biz
+u
+service
+service --status-all
+certbot certonly --standalone -d midollar.biz -d www.midollar.biz -d test.midollar.biz -d deploy.midollar.biz -d www.sinpayer.com -d sinpayer.com
+service nginart
+/etc/letsencrypt/live/
+lt
+ls -t
+cd midollar.biz-0001
+certbot certonly --standalone  -d www.sinpayer.com -d sinpayer.com
+git statuas
+rm certbot.log
+php artisan hm
+php artisan hm:refresh
+php artisan blade
+php artisan smarty:clear
+cp -R larahm_test
+cp -R larahm larahm_test
+certbot certonly --standalone -d sinpayer.com -d www.sinpayer.com -d test.sinpayer.com
+cd www.sinpayer.com
+ll /etc/letsencrypt/live/www.sinpayer.com/fullchain.pem
+cd /var/www/larahm_test
+ln -s .env.test .env
+unlink .env
+git pull debug
+git pull origin:debug
+git pull origin/debug
+git pull origin debug
+git checkout debug
+git checkout origin/debug
+git checkout origin debug
+git branch
+git fetch --all
+git checkout --track debug
+git checkout --track -b debug
+sudo chmod 777 -R bootstrap/cache storage
+vim laravel-2017-09-03.log
+rm -rf *
+mv ../larahm/.env.test ./
+git ull
+php artisan migrate:fresh --seed -f
+php artisan migrate:fresh --seed --force
+cd ../larahm_test
+php artisan tiniker
+/var/spool/cron/crontabs
+vim root
+cron -e
+service cron restart
+history | grep 'cron'
+cron
+pgrep crond
+sudo /etc/init.d/crond restart
+crond
+sudo /etc/init.d/cron restart
+cat /var/log/cron
+php /var/www/larahm/artisan schedule:run > /var/www/log/crontab.log
+sudo service cron restart
+pkill 4360
+pkill 14132
+sudo service cron reload
+cron -l
+ps aux | grep $(cat /var/run/crond.pid)
+kill 4360
+cat /var/www/log/crontab.log
+php /var/www/larahm/artisan schedule:run
+git branch --set-upstream-to=origin/debug debug
+git branch --set-upstream-to=origin debug
+git branch -u origin/debug
+git branch -u origin debug
+git branch -u origin debug:debug
+git branch -u origin debug/debug
+git branch -u origin debug debug
+git branch -u origin/debug debug
+git fetch
+git fetch -a
+git push -u
+git push -u origin debug
+git checkout master
+git branch -D debug
+git checkout -b --track debug
+git checkout -b --track origin/debug
+git fetch origin debug
+git fetch origin debug:debug
+git branch -u
+--list
+git branch --list
+git show 53db374
+git checkout --track origin/test
+git fetch origin test:test
+git checkout test
+sudo aptinstall supervisor
+sudo apt install supervisor
+/etc/supervisor/conf.d
+touch laravel-worker.conf
+cat conf.d/laravel-worker.conf
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl start laravel-worker:*
+sudo supervisorctl start laravel-worker
+php /var/www/larahm/artisan queue:work database --sleep=5 --tries=5
+sudo supervisorctl start
+sudo supervisorctl start all
+supervisorctl
+cd /var/www/larahm/storage/logs/
+cat worker.log
+sudo supervisorctl
+php artisan hm:deposit
+php artisan hm:deposit goldpoll 100 --batch=187300898 --plan=7
+tinker
+php artisan hm:ip
+cd /var/www/larahmlara
+git pull -f
+git pull -h
+git pull -X theirs
+../larahm_test
+sudo apt-get install php7.1-bcmath
+apt-get update
+sudo apt update
+sudo apt-get clean
+sudo apt clean
+cd /var/lib/apt
+sudo mv lists lists.old
+sudo mkdir -p lists/partial
+apt -h
+apt-get
+apt-get autoclean
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 6494C6D6997C215E
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com PUT_KEY_HERE
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com rewrewrewrewrgfdgdfgdf
+\n\n注册: 2008-09-18 13:11\n帖子: 2665 \n送出感谢: 1 次 \n接收感谢: 431 次\nsudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 8D5A09DC9B929006
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 8D5A09DC9B929006
+run sudo apt update
+sudo service php7.1-fpm restart
